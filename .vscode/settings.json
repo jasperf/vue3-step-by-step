@@ -1,0 +1,23 @@
+{
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.includeLanguages": {
+    "html": "HTML",
+    "javascript": "javascript",
+    "css": "css",
+    "vue": "html",
+    "vue-html": "html",
+    "plaintext": "html"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["class=\"([^\"]*)\"", "class"],
+    ["class='([^']*)'", "class"],
+    ["class=\\\"([^\\\"]*)\\\"", "class"],
+    ["class:\\s*\"([^\"]*)\"", "class"],
+    ["`([^`]*)`", "class"] // Added for backticks
+  ]
+}
